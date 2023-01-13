@@ -1,0 +1,84 @@
+<!Doctype html>
+<html lang=ang>
+<head>
+	<meta charset="utf-8">
+	<title>Mental Health</title>
+	<link rel="icon" href="../img/icon.jpg" >
+	<meta name="description" content="Mentally tired,Mental Health check,Santé,Cerveau,Test My Mind,Am I Psycho,I am tired of thinking">
+	<meta name="keywords" content="Tired,mental,psychopath,psychiatry,psychologie,psycho,thinking,brain,peaceful mind,test,Solution">
+	<link rel="stylesheet" href="../css/cnx.css">
+	<script src="../js/cnxup.js"></script>
+</head>
+
+<body>
+	<header>
+	<h1 id="createaccount"><em> Start with us </em></h1>
+	</header>
+	<!--navigator-->
+	<section class="mynav">
+		<nav>
+			<ul class="mylist">
+				<li><a href="index.html" title="Take me to Home page"><em>Home</em></a></li>
+				<li><a href="about.html" target="_blank" title="About us"><em>About</em></a></li>
+				<li><a href="help.html" target="_blank" title="Help"><em>Help</em></a></li>
+			</ul>
+		</nav>
+	</section>
+
+	<!--formulaire-->
+    <form id="myform" name="f" method="post" action="startbutton.html">
+		<h3 id="nouveau">^.^&nbsp;&nbsp;&nbsp;New patient&nbsp;&nbsp;&nbsp;^.^</h3>
+			<table>
+				<tr>
+					<td><label for="Nom">Name *</label></td>
+					<td><input type="text" id="Nom" name="nom" autofocus required/></td>
+				</tr>
+				<tr>
+					<td><label for="Prenom">First name *</label></td>
+					<td><input type="text" id="Prenom" name="prenom" required /></td>
+				</tr>
+				<tr>
+					<td><label for="email">Email *</label></td>
+					<td><input type="email" id="email" name="email" required/></td>
+				</tr>
+				<tr>
+					<td><label for="password_first">Password *</label></td>
+					<td><input type="password" id="password_first" name="pwd" required/></td>
+				</tr>
+				<tr>
+					<td><label for="password_second">Password confirmation *</label></td>
+					<td><input type="password" id="password_second" name="pwd2" required/></td>
+				</tr>
+				<tr>
+					<td>Sexe:</td>
+					<td>
+						<label class="rad" for="H">Homme<input id="H" type="radio" name="sexe" value="H" title="Homme" required></label>
+						<label class="rad" for="F">Femme<input id="F" type="radio" name="sexe" value="F" title="Femme" required></label>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="Tel">Phone:</label></td>
+					<td><input type="tel" id="Tel" name="tel" placeholder="Phone number(8 digits)" /></td>
+				</tr>
+				<tr>
+					<td><label for="date">Birth date</label></td>
+					<td><input type="date" name="date" id="date" min="1940-01-01" max="2004-01-01" value="1990-01-01" /></td>
+				</tr>
+				<tr class="lastrow">
+					<td><button type="reset" name="reset">Reset</button></td>
+					<td>
+						<a href="">
+							<input type="submit" class="inbutton" value="Sign up" title="Sign up to my new account" onclick="verify()">
+						</a>
+					</td>
+				</tr>
+			</table>
+		 <p class="required"><strong><mark>*&nbsp;Required fields</mark></strong></p>
+	</form>
+	
+	<footer>
+		<p><strong><span style="color:blueviolet;text-decoration-line: underline;">contact us:</span> mental_well_being@gmail.com</strong></p>
+		<p><strong>&copy; <em>By:</em> MohamedMoetaz Boughalmi</strong></p>
+	</footer>
+</body>
+</html>

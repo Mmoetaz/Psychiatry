@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Kalam:wght@700&display=swap');
+*{
+	background-color: #1a2421;
+	font-family: 'DynaPuff', cursive;
+}
+/*title*/
+h1{
+	text-align: center;
+	color:antiquewhite;
+	text-shadow:10px 10px 15px paleturquoise;
+	font-size:3em;
+}
+
+legend{
+	color:antiquewhite;
+	font-size: 2em;
+}
+/*table for the input and logos part*/
+table{
+	margin-left:40em;
+	margin-top:3em;
+	margin-bottom:3em;
+}
+/*submit button*/
+.submit{
+	margin-left:20em;
+	font-size: 2em;
+	color:floralwhite;
+	cursor: pointer;
+	padding:3px;
+	border:solid 3px white;
+
+}
+fieldset{
+	margin-bottom: 10em;
+}
+footer{
+	color:whitesmoke;
+	text-align: center;
+	margin-top:3em;
+	border-top:2px solid;
+	border-bottom:4px solid;
+	font-weight:500;
+}
+

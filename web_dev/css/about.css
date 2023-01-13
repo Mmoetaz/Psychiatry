@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Roboto+Slab:wght@100;200;300;400;500&display=swap') ;
+html{
+	background:linear-gradient(60deg,violet,hotpink,lightsalmon);
+}
+
+h1{
+	font-size: 5em;
+	color:lightyellow;
+	text-shadow: 1px 20px 20px mediumvioletred;
+}
+
+.logo {
+		border:outset 5px lightsalmon;
+  		border-radius: 50%;
+ 		box-shadow: 10px 10px 10px deepskyblue;
+}
+
+
+/*navigator*/
+.mynav{
+	text-align: center;
+	margin-top: 5em;
+	border-top: solid 4px #002D40 ;
+	border-bottom: solid 2px #002D40 ;
+}
+.mylist li{
+	text-align: justify;
+	display:inline;
+	background-color: #af55c6;
+	border:outset 5px;
+	border-right-color: darkgreen;
+	border-bottom-color: darkgreen;
+	border-radius: 10px 15px 20px 25px;
+	box-shadow: 10px 10px 10px deepskyblue;
+	padding:5px;
+	margin:5px;
+}
+.mylist li a{
+	color:ghostwhite;
+	font-family:Georgia, serif;
+	font-weight: bolder;
+	text-decoration-line: none;
+}
+.mylist li:hover{
+	background-color: #e5aa70;
+	border:7px  inset;
+	border-top-color: #da9100;
+	border-left: #da9100;
+}
+.mylist li a:hover{
+	color:deeppink;
+}
+
+
+/*body content*/
+.fstsec{
+	margin-top:10em;
+}
+
+article{
+	padding:5px;
+	margin: 5px;
+	border:inset 3px lightsalmon;
+	font-size: 1.2em;
+	font-weight:500 ;
+}
+
+footer{
+	margin-top:5em;
+	border-top: solid 4px #002D40 ;
+	border-bottom: solid 2px #002D40 ;
+}
+
+

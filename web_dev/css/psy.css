@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Roboto+Slab:wght@100;200;300;400;500&display=swap') ;
+/*En general*/
+html{
+	background:linear-gradient(80deg,violet,hotpink,lightsalmon);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	opacity:1;	
+	font-family: belleza;
+	
+}
+
+/*header*/
+h1{
+	text-align: justify;
+	color: #ffc0cb /*#009546*/;
+	font-size:3em;
+	text-shadow: 5px 10px 10px #a9a9a9;
+}
+/*Button*/
+/*button*/
+.log{
+	opacity: 0.8;
+	display:inline;
+	background-color: #4b3621;
+	border:outset 5px;
+	border-right-color: darkgreen;
+	border-bottom-color: darkgreen;
+	border-radius: 10px 15px 20px 25px;
+	box-shadow: 10px 10px 10px deepskyblue;
+	margin-top: -3em;
+
+	
+}
+/*Lien*/
+.cnx{
+	vertical-align: middle;
+	margin-top: -2em;
+	color:white;
+	margin-bottom: 2em;
+	font-weight: 900;
+	font-size:1.2em;
+	font-style: oblique;
+	box-shadow: 10px 10px 10px black;
+}
+/*Logo de connexion*/
+.loglogo{
+  	border-radius: 50%;
+  	vertical-align: middle;
+}
+
+
+/*navigator*/
+.mynav{
+	text-align: center;
+	margin-top: 5em;
+}
+.mylist li{
+	text-align: justify;
+	display:inline;
+	background-color: #af55c6;
+	border:outset 5px;
+	border-right-color: darkgreen;
+	border-bottom-color: darkgreen;
+	border-radius: 10px 15px 20px 25px;
+	box-shadow: 10px 10px 10px deepskyblue;
+	padding:5px;
+	margin:5px;
+}
+.mylist li a{
+	color:ghostwhite;
+	font-family:Georgia, serif;
+	font-weight: bolder;
+	text-decoration-line: none;
+}
+.mylist li:hover{
+	background-color: #e5aa70;
+	border:7px  inset;
+	border-top-color: #da9100;
+	border-left: #da9100;
+}
+.mylist li a:hover{
+	color:deeppink;
+}
+
+/*welcome section*/
+h3{
+	font-size:3.5em;
+	color:#f5f5dc;
+	margin-right: 2em;
+	margin-top:2em;
+	text-shadow: 5px 5px 5px blanchedalmond;
+}
+.para{
+	color:#f5f5dc;
+	font-size: 1.5em;
+	margin-top: 5em;
+	border:inset 5px lightsalmon;
+	vertical-align: middle;
+	margin-right:43em;
+	padding:0.5em;
+}
+.endpara{
+	color:#f5f5dc;
+	font-size: 1.5em;
+	margin-left: 2em;
+	margin-top: 5px;
+	border:inset 5px lightsalmon;
+	vertical-align: middle;
+	margin-right:43em;
+	padding:0.5em;	
+
+}
+
+/*footer*/
+footer{
+	display:inline;
+	color: navajowhite;
+	text-align: right;
+	margin-top: 2em;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+/*RESPONSIVE */
+
+@media only screen and (max-width: 1200px) {
+	html{width:100%;}
+  .loglogo{width: 0%;}
+  .cnx{width:10%;font-size:10px;}
+  .log {width: 17.5%;}
+  .mynav{width: 25%;display:inline;}
+  .para {width: 33.33%;}
+  .endpara {width: 41.66%;}
+  footer{width: 41.66%;}
+  h3{width: 50%;}
+  h1{width: 80%;}

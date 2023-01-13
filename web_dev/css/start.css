@@ -1,0 +1,55 @@
+html{
+	background-color: lightblue;
+	font-family: cursive;
+}
+h1{
+	font-size: 1.5;
+	font-family: fantasy;
+	color:darksalmon;
+	text-decoration: underline overline;
+	text-shadow: 10px 10px 10px ghostwhite;
+}
+.home a:hover{
+	font-size: 1.5em;
+	border:3px inset red;
+	padding:3px;
+	color:hotpink;
+
+}
+.infos{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.info{
+	border:3px solid lightsalmon;
+	padding:5px;
+}
+
+div{
+	margin-bottom: 3em;
+}
+/*submit*/
+#Go{
+	background-color:skyblue;
+	cursor:pointer;
+	padding:5px 10px;
+	margin-left:20em;
+	margin-top:3em;
+	font-size: 2em;
+	font-weight: bold;
+	border:5px inset lightpink;
+	border-right:10px hotpink;
+	border-bottom:10px hotpink;
+	border-radius: 20px;
+	box-shadow: 5px 10px 15px lightsalmon;
+}
+
+
+footer{
+	font-family: !important;
+	font-size: 1em;
+	text-decoration: underline overline;
+	margin-top:5em;
+}
+
+

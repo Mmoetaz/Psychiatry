@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+html{
+	background-color: lightblue;
+	font-family: cursive;
+}
+
+/*Body*/
+body{
+	text-align: center;
+}
+/*header*/
+/*title*/
+h1{
+	font-family: kalam , cursive;
+	font-weight: bolder;
+	font-size: 5em;
+}
+/* </end title of page> */
+/*Home button*/
+.home{
+	text-align: left;
+	font-family: kalam;
+}
+.home a:hover{
+	font-size: 1.5em;
+	border:3px inset red;
+	padding:3px;
+	color:hotpink;
+}
+/*TEST buttons*/
+button{
+	border-radius: 10px;
+	padding:2px;
+	background:hotpink;
+	border:5px outset lightsalmon;
+	border-top-color: darksalmon;
+	border-left-color:darksalmon ;
+}
+button a{
+	font-size: 3em;
+	text-decoration-line: none;
+	color:blueviolet;
+}
+
+a:hover{
+	color:hotpink;
+	font-family: kalam ,cursive;
+}
+button:hover{
+	background-color: floralwhite;
+	border:5px outset blueviolet;
+
+}
+#button2{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+#button3{
+	margin-bottom:10em;
+}
+
+
+/*web help page*/
+.webhelp{
+	border:2px solid deeppink;
+	padding:5em 3px;
+	margin-top:5em;
+	margin-bottom:7em;
+	margin-left:25em;
+	margin-right: 25em;
+
+}
+
+/*footer*/
+footer{
+	font-family: kalam;
+	border-top:2px groove palevioletred;
+	border-bottom:4px groove palevioletred;
+	margin-top: 4em;
+}
+
+
+
